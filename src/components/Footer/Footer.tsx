@@ -1,26 +1,30 @@
 // Functional
 import React from 'react'
-// Styles
-import './Footer.scss'
 
 const Footer: React.FC = () => {
 
     return(
-        <footer>
-            <div className="header-footer">
-                <h1>React-store</h1>
-                <div className="our__contacts">
-                    <div>
+        <footer className="footer">
+            <div className="footer__header">
+                <h1>React</h1>
+                <div className="footer__contacts">
+                    <div className="footer__contacts_item">
                         Присоединяйтесь к нам
+                        <div className="footer__sources">
+
+                        </div>
                     </div>
-                    <div>
+                    <div className="footer__contacts_item">
                         Устанавливайте приложение
+                        <div className="footer__sources">
+
+                        </div>
                     </div>
                 </div>
             </div>
-            <div className="bottom-footer">
+            <div className="footer__bottom">
                 <ul>
-                    <li>&#169; Sionic</li>
+                    <li>&#169; React</li>
                     <li>Правовая информация</li>
                     <li>Политика конфиденциальности</li>
                 </ul>

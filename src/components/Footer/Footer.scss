@@ -1,28 +1,36 @@
-@import "src/utils/varibales";
+@import "../../utils/variables";
 
-footer {
+.footer {
   background: #F8F8F8;
   padding: 32px 50px 35px 50px;
-  .header-footer {
+
+  &__header {
+      display: flex;
+      justify-content: space-between;
+      color: $text-color;
+      h1 {
+        font-size: 40.8px;
+        font-weight: bold;
+      }
+  }
+  &__contacts {
     display: flex;
-    justify-content: space-between;
-    color: $text-color;
-    h1 {
-      font-size: 40.8px;
-    }
-    .our__contacts {
-      display: flex;
-      gap:31px;
+    gap:31px;
+    &_item {
+
     }
   }
 
-  .bottom-footer {
-    ul {
-      display: flex;
-      justify-content: center;
-      gap:20px;
-      color: #8D8D8E;
-    }
+  &__sources {
+
   }
 
+  &__bottom {
+      ul {
+        display: flex;
+        justify-content: center;
+        gap:20px;
+        color: #8D8D8E;
+      }
+  }
 }

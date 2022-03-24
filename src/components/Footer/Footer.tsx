@@ -1,5 +1,6 @@
 // Functional
 import React from 'react'
+import {SVG} from "../../utils/svg";
 
 const Footer: React.FC = () => {
 
@@ -9,15 +10,18 @@ const Footer: React.FC = () => {
                 <h1>React</h1>
                 <div className="footer__contacts">
                     <div className="footer__contacts_item">
-                        Присоединяйтесь к нам
+                        <p>Присоединяйтесь к нам</p>
                         <div className="footer__sources">
-
+                            <img src={SVG.sources.facebook} alt="source-facebook" />
+                            <img src={SVG.sources.vk} alt="source-vk" />
+                            <img src={SVG.sources.inst} alt="source-inst" />
                         </div>
                     </div>
                     <div className="footer__contacts_item">
-                        Устанавливайте приложение
+                        <p>Устанавливайте приложение</p>
                         <div className="footer__sources">
-
+                            <img src={SVG.sources.googlePlay} alt="source-app-google-play" />
+                            <img src={SVG.sources.appStore} alt="source-app-store"/>
                         </div>
                     </div>
                 </div>

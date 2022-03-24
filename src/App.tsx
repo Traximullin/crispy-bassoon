@@ -1,9 +1,9 @@
 import React from 'react';
-import Footer from "./components/Footer/Footer";
+import {Aside} from "./components";
 
 function App() {
   return (
-      <Footer/>
+      <Aside/>
   )
 }
 

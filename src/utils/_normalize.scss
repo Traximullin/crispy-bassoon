@@ -31,3 +31,10 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.container {
+	max-width: 896px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}

@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './components/Header/Header';
+import {Aside} from "./components";
 
 function App() {
   return (
-    <Header/>
+      <Aside/>
   )
 }
 

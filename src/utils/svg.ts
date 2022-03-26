@@ -1,11 +1,13 @@
-import {appStore, facebookIcon, googlePlay, instIcon, vkIcon} from "../assets/svg";
+import * as svg from "../assets/svg";
 
 export const SVG = {
     sources: {
-        facebook: facebookIcon,
-        vk: vkIcon,
-        inst: instIcon,
-        appStore: appStore,
-        googlePlay: googlePlay
+        facebook: svg.facebookIcon,
+        vk: svg.vkIcon,
+        inst: svg.instIcon,
+        appStore: svg.appStore,
+        googlePlay: svg.googlePlay,
+        location: svg.locationIcon,
+        basket: svg.basketIcon,
     }
 }

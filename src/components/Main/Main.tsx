@@ -1,49 +1,15 @@
 import React from 'react';
+import MainHeader from "./MainHeader/MainHeader";
 
 const Main: React.FC = () => {
 
     return (
         <div className="main">
             <div className="main__container container">
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
-                    <p>Lorem ipsum sit dolor amet</p>
+                <MainHeader/>
+                <div className="main__content">
+                    content
+                </div>
             </div>
         </div>
     )

@@ -7,6 +7,34 @@
     gap:20px;
   }
 
+  &__proposition, &__item {
+    border-radius: 20px;
+  }
+
+  &__proposition {
+    position: relative;
+    display: flex;
+    width: 311px;
+    height: 143px;
+    border: 1px solid #FF2D87;
+    align-items: center;
+    justify-content: center;
+    &__left {
+      position: relative;
+      left: -10px;
+      width: 91px;
+      height: 82px;
+    }
+    &__right {
+      p {
+        font-size: 20px;
+        font-weight: 600;
+        color: #2967FF;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
   &__item {
     display: flex;
     align-items: center;
@@ -17,7 +45,6 @@
     cursor: pointer;
     width: 311px;
     height: 143px;
-    border-radius: 20px;
     h3 {
       line-height: 23px;
       width: min-content;

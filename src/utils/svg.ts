@@ -6,7 +6,9 @@ export const SVG = {
         vk: svg.vkIcon,
         inst: svg.instIcon,
         appStore: svg.appStore,
-        googlePlay: svg.googlePlay
+        googlePlay: svg.googlePlay,
+        location: svg.locationIcon,
+        basket: svg.basketIcon,
     },
     proposition: {
         sales: svg.sales

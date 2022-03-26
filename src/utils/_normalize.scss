@@ -31,10 +31,8 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;font-family: 'Montserrat', sans-serif;}
-h3{
-	font-family: 'Raleway', sans-serif;
-}
-
+h3, button{font-family: 'Raleway', sans-serif;}
+h3{font-size: 20px;font-weight: bold;}
 .container {
 	padding-left: 50px;
 	padding-right: 50px;

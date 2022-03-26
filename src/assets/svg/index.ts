@@ -5,6 +5,7 @@ import appStore from './app_store.svg'
 import googlePlay from './google_play.svg'
 import locationIcon from './location.svg'
 import basketIcon from './basket.svg'
+import sales from './sales.svg'
 
 export {
     facebookIcon,
@@ -13,5 +14,6 @@ export {
     appStore,
     googlePlay,
     locationIcon,
-    basketIcon
+    basketIcon,
+    sales
 }

@@ -9,5 +9,8 @@ export const SVG = {
         googlePlay: svg.googlePlay,
         location: svg.locationIcon,
         basket: svg.basketIcon,
+    },
+    proposition: {
+        sales: svg.sales
     }
 }

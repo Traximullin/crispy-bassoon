@@ -1,5 +1,6 @@
 .aside {
-
+  grid-area: aside;
+  padding: 20px 20px 20px 0px;
   &__list {
     display: flex;
     flex-direction: column;

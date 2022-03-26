@@ -1,10 +1,14 @@
 import React from 'react';
-import {Aside} from "./components";
-import Header from './components/Header/Header';
+import {Aside, Header, Footer, Main} from "./components";
 
 function App() {
   return (
-      <Aside/>
+      <div className='wrapper'>
+          <Header/>
+          <Aside/>
+          <Main/>
+          <Footer/>
+      </div>
   )
 }
 

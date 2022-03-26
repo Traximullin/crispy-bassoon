@@ -1,9 +1,9 @@
 @import "../../utils/variables";
 
 .footer {
+  grid-area: footer;
   background: #F8F8F8;
-  padding: 32px 50px 35px 50px;
-
+  padding: 32px 0;
   &__header {
     display: flex;
     justify-content: space-between;

@@ -1,2 +1,21 @@
 @import 'utils/index.scss';
 @import './components/index.scss';
+
+.wrapper{
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+          "header aside"
+          "main aside"
+          "footer footer";
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: min-content 1fr min-content;
+}
+
+.main{
+  grid-area: main;
+}
+
+#root{
+  height: 100%
+}

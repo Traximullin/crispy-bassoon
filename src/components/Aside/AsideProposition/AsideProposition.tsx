@@ -2,6 +2,7 @@
 import React from "react";
 // Svg constants
 import {SVG} from "../../../utils/svg";
+import Button from "../../Button/Button";
 
 const AsideProposition: React.FC = () => {
     return(
@@ -11,7 +12,10 @@ const AsideProposition: React.FC = () => {
             </div>
             <div className="aside__proposition__right">
                 <p>Получай товары БЕСПЛАТНО!</p>
-                <button type="button" onClick={() => alert("Узнал больше?")}>Узнать подробнее</button>
+                <Button
+                    title="Узнать подробнее"
+                    onClick={() => alert('!')}
+                />
             </div>
         </div>
     )

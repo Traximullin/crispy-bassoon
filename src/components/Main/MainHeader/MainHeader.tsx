@@ -1,7 +1,8 @@
 import React from 'react';
 import CategoryList from "../CategoryList/CategoryList";
 
-const MainHeader = () => {
+const MainHeader: React.FC = () => {
+
     return (
         <div className="main__header">
             <div className="main__header__top">

@@ -6,7 +6,8 @@ function App() {
       <div className='wrapper'>
           <Header/>
           <Aside/>
-          <Basket/>
+          <Main/>
+          {/*<Basket/>*/}
           <Footer/>
       </div>
   )

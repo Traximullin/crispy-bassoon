@@ -6,6 +6,7 @@ import googlePlay from './google_play.svg'
 import locationIcon from './location.svg'
 import basketIcon from './basket.svg'
 import sales from './sales.svg'
+import searchIcon from './search.svg'
 
 export {
     facebookIcon,
@@ -15,5 +16,6 @@ export {
     googlePlay,
     locationIcon,
     basketIcon,
-    sales
+    sales,
+    searchIcon,
 }

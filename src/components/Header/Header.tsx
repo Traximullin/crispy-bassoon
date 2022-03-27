@@ -15,7 +15,9 @@ const Header: React.FC = () => {
                 </div>
                 <div className='header__search'>
                     <input className='header__search_input' type="text" name="" id="" placeholder='Поиск бренда, товара, категории...'/>
-                    <button className='header__search_button' type="button">search</button>
+                    <button className='header__search_button' type="button">
+                        <img src={SVG.sources.search} alt="search"/>
+                    </button>
                 </div>
                 <div className='header__basket'>
                     <img src={SVG.sources.basket} alt="basket" className='header__basket_icon'/>

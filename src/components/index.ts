@@ -4,6 +4,8 @@ import Header from "./Header/Header";
 import Main from "./Main/Main";
 import Basket from './Basket/Basket';
 import Goods from './Goods/Goods';
+import CounterButton from "./Button/CounterButton/CounterButton";
+import Button from "./Button/Button";
 
 export  {
     Footer,
@@ -12,4 +14,7 @@ export  {
     Main,
     Basket,
     Goods,
+    Button,
+    CounterButton
 }
+

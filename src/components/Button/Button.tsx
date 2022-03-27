@@ -1,26 +1,30 @@
 import React from "react";
 
+type buttonTypeProps = "button" | "submit" | "reset"
+
 interface Props {
     title: string
     onClick: React.ReactEventHandler
+    type?: buttonTypeProps
 }
 
-// const defaultProps = {
-//     type: "button"
-// }
+const defaultProps = {
+    type: "button" as "button"
+}
 
-const Button: React.FC<Props> = ({title,onClick}) => {
+const Button: React.VFC<Props> = ({title,onClick,type}) => {
 
     return(
         <button
-            onClick={onClick}
             className="button"
+            onClick={onClick}
+            type={type}
         >
             {title}
         </button>
     )
 }
 
-// Button.defaultProps = defaultProps
+Button.defaultProps = defaultProps
 
 export default Button

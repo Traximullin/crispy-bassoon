@@ -1,22 +1,26 @@
+// Functional
 import React from "react";
-import Button from "../Button/Button";
+// Svg constant
+import {SVG} from "../../utils/svg";
+// Local component
+import OrderList from "./OrdersList/OrderList";
+// Global component
+import {Button} from "../index";
 
 const Basket: React.FC = () => {
+
     return(
         <div className="basket--orders">
             <div className="basket--orders__header">
-                <h3>Мои заказы</h3>
+                <h3>Покупки</h3>
                 <p>
                     Стоимость корзины:
-                    1 185 000 ₽
+                    <b>1 185 000 ₽</b>
                 </p>
-                <Button title="Тест" onClick={() => alert('!')}/>
+                <Button title="Оформить" onClick={() => alert('!')}/>
+                <img src={SVG.purchases} alt=""/>
             </div>
-            <div className="basket--orders__list">
-                <div className="basket--orders__item">
-                    Смартфон Xiaomi Redmi Note 8 Pro 6/128GB, белый
-                </div>
-            </div>
+            <OrderList />
         </div>
     )
 }

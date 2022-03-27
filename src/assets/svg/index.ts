@@ -3,6 +3,8 @@ import vkIcon from './vk.svg'
 import instIcon from './inst.svg'
 import appStore from './app_store.svg'
 import googlePlay from './google_play.svg'
+import locationIcon from './location.svg'
+import basketIcon from './basket.svg'
 import sales from './sales.svg'
 import basketOrders from './basket_orders.svg'
 import plus from './arithmetic_signs/plus.svg'
@@ -18,4 +20,6 @@ export {
     basketOrders,
     plus,
     minus
+    locationIcon,
+    basketIcon,
 }

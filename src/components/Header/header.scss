@@ -2,6 +2,7 @@
 .header{
   padding: 20px 0;
   grid-area: header;
+
   h1{
     font-size: 37px;
     font-weight: bold;
@@ -11,7 +12,7 @@
     color: #727280;
     white-space: nowrap;
     overflow: hidden;
-    max-width: 120px;
+    text-overflow: ellipsis;
   }
 
   &__container{
@@ -25,10 +26,12 @@
   }
   &__address{
     display: flex;
+    align-items: center;
     gap: 5px;
+    width: 20%;
   }
   &__search{
-    width: 100%;
+    width: 80%;
     border: 1px solid #F0F4FB;
     border-radius: 36px;
     display: flex;
@@ -55,7 +58,13 @@
     min-height: 44px;
     border: 1px solid #a1a1a1;
     border-radius: 50%;
-
+    
+    &_icon{
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 50%;
+      left: 50%;
+    }
     &_count{
       z-index: 2;
       position: absolute;
@@ -71,6 +80,7 @@
   &__avatar{
     width: 44px;
     height: 44px;
+    border-radius: 50%;
   }
 }
 

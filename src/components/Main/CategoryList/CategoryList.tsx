@@ -1,5 +1,5 @@
 import React from 'react';
-import CategoryItem from "../Category/CategoryItem";
+import CategoryItem from "../CategoryItem/CategoryItem";
 
 const Default = [
     {text: 'A', color: '#4949ec', border:'green'},

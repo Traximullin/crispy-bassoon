@@ -10,5 +10,10 @@ export const SVG = {
     },
     proposition: {
         sales: svg.sales
+    },
+    purchases: svg.basketOrders,
+    arithmeticSigns: {
+        plus: svg.plus,
+        minus: svg.minus
     }
 }

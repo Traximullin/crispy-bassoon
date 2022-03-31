@@ -4,6 +4,11 @@ import React from "react";
 import {CounterButton} from "../../index";
 
 const OrderItem = () => {
+
+    const test :{title: string} = {
+        title: "sad"
+    }
+    console.log(test)
     return(
         <div className="basket--orders__item">
             <img

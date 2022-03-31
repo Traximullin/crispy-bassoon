@@ -1,6 +1,7 @@
 import React from 'react';
 import MainHeader from "./MainHeader/MainHeader";
 import Goods from "../Goods/Goods";
+import {Basket} from "../index";
 
 
 const Main: React.FC = () => {
@@ -10,7 +11,8 @@ const Main: React.FC = () => {
             <div className="main__container container">
                 <MainHeader />
                 <div className="main__content">
-                    <Goods/>
+                    {/*<Goods/>*/}
+                    <Basket/>
                 </div>
             </div>
         </div>

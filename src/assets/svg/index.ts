@@ -17,7 +17,6 @@ export {
     instIcon,
     appStore,
     googlePlay,
-    sales,
     basketOrders,
     plus,
     minus,

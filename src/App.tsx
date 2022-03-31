@@ -1,5 +1,5 @@
 import React from 'react';
-import {Aside, Header, Footer, Main, Basket} from "./components";
+import {Aside, Header, Footer, Main} from "./components";
 
 function App() {
   return (
@@ -7,7 +7,6 @@ function App() {
           <Header/>
           <Aside/>
           <Main/>
-          {/*<Basket/>*/}
           <Footer/>
       </div>
   )

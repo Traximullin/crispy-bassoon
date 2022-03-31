@@ -16,22 +16,21 @@
       display: block;
       font-size: 20px;
     }
-    button {
-      width: 80%;
-    }
-    img {
-      margin: 0 14.5px 0 55px;
-    }
+    button { width: 80% }
+    img { margin: 0 14.5px 0 55px }
   }
   &__list {
-    padding: 40px 56px;
+    padding: 20px 90px 20px 56px;
   }
   &__item {
     display: grid;
     align-items: center;
+    gap: 20px;
     justify-content: center;
     grid-template-columns: 0.5fr 4fr 2fr 3fr 0.1fr;
-    border-bottom: 1px solid $menu-blue;
-    padding-bottom: 22px;
+    padding: 20px 0;
+    &:not(:last-child) {
+      border-bottom: 1px solid #AEC2EA;
+    }
   }
 }

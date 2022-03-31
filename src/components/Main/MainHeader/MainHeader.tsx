@@ -1,7 +1,22 @@
 import React from 'react';
 import CategoryList from "../CategoryList/CategoryList";
 
-const MainHeader: React.FC = () => {
+interface Title {
+    title: string,
+    settings: {} | TitleSettings,
+    onClick: React.ReactEventHandler
+}
+
+interface TitleSettings {
+    color: string
+}
+
+interface Props {
+    title?: string,
+    button?: {}
+}
+
+const MainHeader: React.VFC<Props> = ({title , button: Title}) => {
 
     return (
         <div className="main__header">

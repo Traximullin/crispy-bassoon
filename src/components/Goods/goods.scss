@@ -1,3 +1,4 @@
+@import '../../utils/variables';
 
 .goods{
   display: grid;
@@ -23,18 +24,18 @@
   }
 
   &__current-price {
-    color: #2967FF;
+    color: $blue;
     margin-bottom: 5px;
   }
 
   &__past-price {
     text-decoration: line-through;
     margin-right: 10px;
-    color: #8D8D8E;
+    color: $grey;
   }
 
   &__sale {
-    color: #FF2D87;
+    color: $pink;
     font-weight: 600;
   }
 }

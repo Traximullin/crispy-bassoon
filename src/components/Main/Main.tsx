@@ -8,7 +8,7 @@ const Main: React.FC = () => {
     return (
         <div className="main">
             <div className="main__container container">
-                <MainHeader/>
+                <MainHeader />
                 <div className="main__content">
                     <Goods/>
                 </div>

@@ -1,12 +1,30 @@
+@import '../../utils/variables';
+
 .button {
   padding: 11px 25px;
   border-radius: 51px;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
-  background: #2967FF;
+  background: $blue;
   &:hover {
     transition: background-color 3s cubic-bezier(0.1, 0.8, 0.5, 2);
     background: #073193;
   }
+
+  // Modifiers
+  &_white{
+    background-color: white;
+    border: 1px solid $blue;
+    color: $blue;
+    &:hover {
+      transition: background-color 3s cubic-bezier(0.1, 0.8, 0.5, 2);
+      background: #ffffff;
+    }
+  }
+
+  &_w100{
+    width: 100%;
+  }
+  //
 }

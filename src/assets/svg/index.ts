@@ -20,9 +20,8 @@ export {
     sales,
     basketOrders,
     plus,
-    minus
+    minus,
     locationIcon,
     basketIcon,
-    sales,
     searchIcon,
 }

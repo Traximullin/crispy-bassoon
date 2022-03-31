@@ -1,14 +1,16 @@
+@import '../../utils/variables';
+
 .basket--orders {
   //fixme margin
   margin-left: 60px;
   border-radius: 20px;
-  border: 1px solid #AEC2EA;
+  border: 1px solid $menu-blue;
   &__header {
     display: grid;
     grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
     align-items: center;
     justify-items: flex-end;
-    border-bottom: 1px solid #AEC2EA;
+    border-bottom: 1px solid $menu-blue;
     border-radius: 20px;
     p b {
       display: block;

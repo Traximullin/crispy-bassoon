@@ -3,7 +3,7 @@ import React from 'react'
 // Assets
 import {SVG} from "../../utils/svg";
 
-const Header: React.FC = () => {
+const Header: React.VFC = () => {
     
     return (
         <header className='header'>

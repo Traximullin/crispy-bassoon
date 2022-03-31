@@ -22,6 +22,5 @@ export {
     minus,
     locationIcon,
     basketIcon,
-    sales,
     searchIcon,
 }

@@ -9,7 +9,7 @@ const Default = [
     {text: 'E', border:'red'},
 ]
 
-const CategoryList: React.FC = () => {
+const CategoryList: React.VFC = () => {
     return (
         <div>
             {

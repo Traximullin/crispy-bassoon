@@ -1,14 +1,10 @@
 @import '../../utils/variables';
 
 .goods{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 46px;
 
   &__wrapper{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
   }
 
@@ -44,5 +40,11 @@
   &__sale {
     color: $pink;
     font-weight: 600;
+  }
+
+  &__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
   }
 }

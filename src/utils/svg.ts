@@ -14,6 +14,9 @@ export const SVG = {
     proposition: {
         sales: svg.sales
     },
+    interface: {
+      vector: svg.vector
+    },
     purchases: svg.basketOrders,
     arithmeticSigns: {
         plus: svg.plus,

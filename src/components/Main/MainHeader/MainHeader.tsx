@@ -1,32 +1,40 @@
 import React from 'react';
-import CategoryList from "../CategoryList/CategoryList";
-
-interface Title {
-    title: string,
-    settings: {} | TitleSettings,
-    onClick: React.ReactEventHandler
-}
-
-interface TitleSettings {
-    color: string
-}
 
 interface Props {
     title?: string,
-    button?: {}
+    button?: Button[]
+    children?: React.ReactNode
 }
 
-const MainHeader: React.VFC<Props> = ({title , button: Title}) => {
+interface Button {
+    title?: string,
+    settings?: ButtonSettings,
+    onClick?: React.ReactEventHandler
+}
 
+interface ButtonSettings {
+    color?: string
+}
+
+const MainHeader = ({title, button, children}: Props) => {
     return (
         <div className="main__header">
             <div className="main__header__top">
-                <h3>Категории товаров</h3>
-                <span>Настройки</span>
+                {title && <h3>{title}</h3>}
+                {
+                    button && button.map((elem, index) => (
+                        <span key={index} onClick={elem.onClick} style={{...elem.settings}}>
+                            {elem.title}
+                        </span>
+                    ))
+                }
             </div>
-            <div className="main__header__bottom">
-                <CategoryList/>
-            </div>
+            {
+                children &&
+                <div className="main__header__bottom">
+                    {children}
+                </div>
+            }
         </div>
     );
 };

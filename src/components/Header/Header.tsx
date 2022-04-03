@@ -2,6 +2,7 @@
 import React from 'react'
 // Assets
 import {SVG} from "../../utils/svg";
+import {Button} from "../index";
 
 const Header: React.VFC = () => {
     
@@ -15,9 +16,7 @@ const Header: React.VFC = () => {
                 </div>
                 <div className='header__search'>
                     <input className='header__search_input' type="text" name="" id="" placeholder='Поиск бренда, товара, категории...'/>
-                    <button className='header__search_button' type="button">
-                        <img src={SVG.sources.search} alt="search"/>
-                    </button>
+                    <Button onClick={() => {}} src={SVG.sources.search} theme='light' padding={'0px 40px'}/>
                 </div>
                 <div className='header__basket'>
                     <img src={SVG.sources.basket} alt="basket" className='header__basket_icon'/>

@@ -10,7 +10,7 @@ const OrderItem = () => {
     }
     console.log(test)
     return(
-        <div className="basket--orders__item">
+        <div className="basket-orders__item">
             <img
                 width={60}
                 height={63}

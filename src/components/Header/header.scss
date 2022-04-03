@@ -56,12 +56,17 @@
     min-height: 44px;
     border: 1px solid $blue-grey;
     border-radius: 50%;
+    &:hover{
+      transition: border 0.2s cubic-bezier(0.4,0,0.2,1);
+      border: 1px solid $blue;
+    }
     
     &_icon{
       position: absolute;
       transform: translate(-50%, -50%);
       top: 50%;
       left: 50%;
+
     }
     &_count{
       z-index: 2;

@@ -6,6 +6,7 @@ import Basket from './Basket/Basket';
 import Goods from './Goods/Goods';
 import CounterButton from "./Button/CounterButton/CounterButton";
 import Button from "./Button/Button";
+import Delivery from "./Delivery/Delivery";
 
 export  {
     Footer,
@@ -15,6 +16,7 @@ export  {
     Basket,
     Goods,
     Button,
-    CounterButton
+    Delivery,
+    CounterButton,
 }
 

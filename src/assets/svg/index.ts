@@ -24,5 +24,6 @@ export {
     locationIcon,
     basketIcon,
     searchIcon,
-    vector
+    vector,
+    sales
 }

@@ -10,6 +10,7 @@ import searchIcon from './search.svg'
 import basketOrders from './basket_orders.svg'
 import plus from './arithmetic_signs/plus.svg'
 import minus from './arithmetic_signs/minus.svg'
+import vector from './vector.svg'
 
 export {
     facebookIcon,
@@ -23,4 +24,5 @@ export {
     locationIcon,
     basketIcon,
     searchIcon,
+    vector
 }

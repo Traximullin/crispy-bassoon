@@ -2,6 +2,7 @@ import React from 'react';
 import MainHeader from "./MainHeader/MainHeader";
 import Goods from "../Goods/Goods";
 import CategoryList from "./CategoryList/CategoryList";
+import Delivery from "../Delivery/Delivery";
 
 
 const Main: React.FC = () => {
@@ -17,7 +18,8 @@ const Main: React.FC = () => {
                     <CategoryList/>
                 </MainHeader>
                 <div className="main__content">
-                    <Goods/>
+                    {/*<Goods/>*/}
+                    <Delivery/>
                 </div>
             </div>
         </div>

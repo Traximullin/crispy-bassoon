@@ -7,7 +7,7 @@ import OrderList from "./OrdersList/OrderList";
 // Global component
 import {Button} from "../index";
 
-const Basket: React.FC = () => {
+const Basket: React.VFC = () => {
 
     return(
         <div className="basket--orders">

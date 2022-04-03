@@ -1,6 +1,8 @@
 @import '../../utils/variables';
 
 .button {
+  display: flex;
+  justify-content: center;
   padding: 11px 25px;
   border-radius: 51px;
   color: #FFFFFF;

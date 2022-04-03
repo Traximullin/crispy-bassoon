@@ -11,7 +11,7 @@ const GoodsItem: React.FC = () => {
                 <span className="goods__past-price">450 000p</span>
                 <span className="goods__sale">10%</span>
             </div>
-            <Button title={"Добавить в корзину"} onClick={() => {}} theme={'white w100'}/>
+            <Button title={"Добавить в корзину"} onClick={() => {}} theme={'white w-100'}/>
         </div>
     );
 };

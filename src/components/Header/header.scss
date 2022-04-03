@@ -20,19 +20,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    & > *:not(:last-child){
-      margin-right: 20px;
-    }
+    gap: 20px;
   }
   &__address{
     display: flex;
     align-items: center;
     gap: 5px;
-    width: 20%;
+    min-width: 20%;
   }
   &__search{
     width: 80%;
+    padding: 3px 5px 3px 0;
     border: 1px solid $very-light-blue;
     border-radius: 36px;
     display: flex;
@@ -41,13 +39,12 @@
 
     &_input{
       font-size: 16px;
-      padding: 16px 8px 16px 20px;
+      padding: 11px 8px 11px 20px;
       width: 100%;
     }
     &_button{
       background-color: $very-light-blue;
-      padding: 0 24px;
-      margin: 3px 5px 3px 0;
+      padding: 0 40px;
       border-radius: 36px;
 
     }

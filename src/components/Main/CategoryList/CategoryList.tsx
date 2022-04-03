@@ -11,9 +11,9 @@ const Default = [
 
 const CategoryList: React.VFC = () => {
     return (
-        <div>
+        <div className="main__category-list">
             {
-                Default.map(elem => <CategoryItem text={elem.text} color={elem.color} border={elem.border}/>)
+                Default.map((elem, index) => <CategoryItem key={index} text={elem.text} color={elem.color} border={elem.border}/>)
             }
         </div>
     );

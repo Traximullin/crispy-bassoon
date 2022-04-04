@@ -9,6 +9,7 @@ import Button from "./Button/Button";
 import Form from './Form/Form'
 import Input from './Input/Input'
 import Delivery from "./Delivery/Delivery";
+import OrdersHistory from "./OrdersHistory/OrdersHistory";
 
 export  {
     Input,
@@ -22,5 +23,6 @@ export  {
     Button,
     Delivery,
     CounterButton,
+    OrdersHistory
 }
 

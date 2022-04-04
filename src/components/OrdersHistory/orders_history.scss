@@ -1,0 +1,27 @@
+@import '../../utils/variables';
+
+.orders-history{
+
+  &__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  &__item{
+    height: 236px;
+    border: 1px solid $menu-blue;
+    border-radius: 32px;
+    padding: 20px;
+  }
+
+  &__header{
+    display: grid;
+    grid-template-columns: min-content 1fr min-content;
+    gap: 20px;
+  }
+
+  &__main{
+    margin-top: 10px;
+  }
+}

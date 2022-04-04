@@ -15,7 +15,7 @@ const Goods: React.FC = () => {
             ]}>
                 <CategoryList/>
             </MainHeader>
-            <div className="goods__wrapper">
+            <div className="goods__container">
                 <GoodsItem/>
                 <GoodsItem/>
                 <GoodsItem/>
@@ -32,7 +32,7 @@ const Goods: React.FC = () => {
                 <GoodsItem/>
             </div>
             <div className='goods__button'>
-                <Button title='Показать больше товаров' onClick={() => {}} theme='light' padding='16px 44px' src={SVG.sources.basket}/>
+                <Button title='Показать больше товаров' onClick={() => {}} theme='light' padding='16px 44px' src={SVG.interface.basket}/>
             </div>
         </div>
     );

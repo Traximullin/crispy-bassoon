@@ -11,7 +11,7 @@ const GoodsItem: React.FC = () => {
                 <span className="goods__past-price">450 000p</span>
                 <span className="goods__sale">10%</span>
             </div>
-            <Button title={"Добавит в корзину"} onClick={() => {}}/>
+            <Button onClick={() => {}}>Добавит в корзину</Button>
         </div>
     );
 };

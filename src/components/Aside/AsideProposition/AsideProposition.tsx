@@ -13,9 +13,10 @@ const AsideProposition: React.FC = () => {
             <div className="aside__proposition__right">
                 <p>Получай товары БЕСПЛАТНО!</p>
                 <Button
-                    title="Узнать подробнее"
                     onClick={() => alert('!')}
-                />
+                >
+                    Узнать подробнее
+                </Button>
             </div>
         </div>
     )

@@ -3,7 +3,6 @@ import React from "react";
 type buttonTypeProps = "button" | "submit" | "reset"
 
 interface Props {
-    title: string
     onClick: React.ReactEventHandler
     type?: buttonTypeProps
 }
@@ -12,7 +11,11 @@ const defaultProps = {
     type: "button" as "button"
 }
 
-const Button: React.VFC<Props> = ({title,onClick,type}) => {
+const Button: React.FC<Props> = ({
+         onClick,
+         type,
+         children
+    }) => {
 
     return(
         <button
@@ -20,7 +23,7 @@ const Button: React.VFC<Props> = ({title,onClick,type}) => {
             onClick={onClick}
             type={type}
         >
-            {title}
+            {children}
         </button>
     )
 }

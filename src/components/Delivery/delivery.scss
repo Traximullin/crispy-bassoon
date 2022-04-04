@@ -1,0 +1,23 @@
+
+.delivery {
+
+  &__container {
+    display: flex;
+    justify-content: left;
+  }
+  &__information {
+    p {
+      color: #2D2D2F;
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    input {
+      margin-bottom: 18px;
+    }
+  }
+  &__price {
+
+  }
+
+}

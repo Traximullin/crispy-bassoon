@@ -17,7 +17,7 @@ const Basket: React.VFC = () => {
                     Стоимость корзины:
                     <b>1 185 000 ₽</b>
                 </p>
-                <Button title="Оформить" onClick={() => alert('!')}/>
+                <Button onClick={() => alert('!')}>Оформить</Button>
                 <img src={SVG.purchases} alt=""/>
             </div>
             <OrderList />

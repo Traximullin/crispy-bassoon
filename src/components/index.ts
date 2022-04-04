@@ -8,6 +8,7 @@ import CounterButton from "./Button/CounterButton/CounterButton";
 import Button from "./Button/Button";
 import Form from './Form/Form'
 import Input from './Input/Input'
+import Delivery from "./Delivery/Delivery";
 
 export  {
     Input,
@@ -19,6 +20,7 @@ export  {
     Basket,
     Goods,
     Button,
-    CounterButton
+    Delivery,
+    CounterButton,
 }
 

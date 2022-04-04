@@ -23,7 +23,7 @@ export {
     minus,
     locationIcon,
     basketIcon,
-    sales,
     searchIcon,
-    vector
+    vector,
+    sales
 }

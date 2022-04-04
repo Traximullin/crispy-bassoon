@@ -1,14 +1,51 @@
+@import '../../utils/variables';
+
 .button {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 11px 25px;
   border-radius: 51px;
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 600;
-  background: #2967FF;
-  &:hover {
-    transition: background-color 3s cubic-bezier(0.1, 0.8, 0.5, 2);
-    background: #073193;
+  background: $blue;
+
+  //&:hover {
+  //  transition: background-color 3s cubic-bezier(0.1, 0.8, 0.5, 2);
+  //  background: #073193;
+  //}
+
+  &__img{
+    width: 16px;
+    height: 16px;
   }
+
+  &__items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  // Themes
+  &_white{
+    background-color: white;
+    border: 1px solid $blue;
+    color: $blue;
+    &:hover {
+      transition: background-color 3s cubic-bezier(0.1, 0.8, 0.5, 2);
+      background: #ffffff;
+    }
+  }
+
+  &_w100{
+    width: 100%;
+  }
+
+  &_light-blue{
+    background-color: $very-light-blue;
+    color: $blue-grey;
+  }
+
 }

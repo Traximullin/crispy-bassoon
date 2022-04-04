@@ -1,7 +1,13 @@
+
+@import '../../utils/variables';
+
 .goods{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+
+  &__wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
 
   &__item{
   }
@@ -22,18 +28,24 @@
   }
 
   &__current-price {
-    color: #2967FF;
+    color: $blue;
     margin-bottom: 5px;
   }
 
   &__past-price {
     text-decoration: line-through;
     margin-right: 10px;
-    color: #8D8D8E;
+    color: $grey;
   }
 
   &__sale {
-    color: #FF2D87;
+    color: $pink;
     font-weight: 600;
+  }
+
+  &__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
   }
 }

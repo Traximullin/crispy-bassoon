@@ -1,39 +1,55 @@
+@import '../../utils/variables';
+
 //Main
 .main {
+  margin-bottom: 55px;
 
-}
+  // Header
+  &__header {
+    padding-bottom: 20px;
 
-// Header
-.main__header {
-  padding-bottom: 20px;
+    &__top{
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 30px;
 
-  &__top{
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+      & > span{
+        font-size: 12px;
+        font-weight: 600;
+        color: $blue;
+        cursor: pointer;
+      }
+    }
 
-    & > span{
-      font-size: 12px;
-      color: #2967FF;
+    &__bottom{
+      & > *:not(:last-child){
+        margin-bottom: 10px;
+      }
+    }
+
+
+    &__category{
+      margin-right: 6px;
+      background-color: $blue;
+      border: 1px solid $blue;
+      border-radius: 40px;
+      padding: 2px 10px;
+      color: white;
       cursor: pointer;
     }
   }
-  &__bottom{
+
+  &__category-list{
+    display: flex;
+  }
+
+  //Content
+  &__content {
 
   }
-  &__category{
-    margin-right: 6px;
-    background-color: #4949ec;
-    border: 1px solid #4949ec;
-    border-radius: 40px;
-    padding: 2px 10px;
-    color: white;
-    cursor: pointer;
-  }
-}
-
-//Content
-.main__content {
 
 }
+
+
+

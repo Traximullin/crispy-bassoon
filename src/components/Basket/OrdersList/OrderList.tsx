@@ -6,7 +6,7 @@ import OrderItem from "../OrderItem/OrderItem";
 const OrderList: React.VFC = () => {
 
     return(
-        <div className="basket--orders__list">
+        <div className="basket-orders__list">
             <OrderItem/>
             <OrderItem/>
             <OrderItem/>

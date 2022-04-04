@@ -7,15 +7,17 @@ export const SVG = {
         inst: svg.instIcon,
         appStore: svg.appStore,
         googlePlay: svg.googlePlay,
-        location: svg.locationIcon,
-        basket: svg.basketIcon,
-        search: svg.searchIcon,
+
     },
     proposition: {
         sales: svg.sales
     },
     interface: {
-      vector: svg.vector
+        vector: svg.vector,
+        location: svg.locationIcon,
+        basket: svg.basketIcon,
+        search: svg.searchIcon,
+        caret: svg.caret
     },
     purchases: svg.basketOrders,
     arithmeticSigns: {

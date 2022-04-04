@@ -1,6 +1,6 @@
 import React from 'react';
 import {Routes, Route, Link} from 'react-router-dom'
-import {Basket, Delivery, Goods} from "../index";
+import {Basket, Delivery, Goods, OrdersHistory} from "../index";
 
 
 const Main: React.FC = () => {
@@ -12,6 +12,8 @@ const Main: React.FC = () => {
                     <Route element={<Goods/>} path='/'/>
                     <Route element={<Delivery/>} path='/delivery'/>
                     <Route element={<Basket/>} path='/basket'/>
+
+                    <Route element={<OrdersHistory/>} path='/orders-history'/>
                     <Route element={<div>Not found</div>} path='/*'/>
                 </Routes>
             </div>

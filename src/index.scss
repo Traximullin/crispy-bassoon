@@ -5,7 +5,7 @@
   height: 100%;
   display: grid;
   grid-template-areas:
-          "header aside"
+          "header header"
           "main aside"
           "footer footer";
   grid-template-columns: 4fr 1fr;

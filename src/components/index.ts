@@ -7,6 +7,7 @@ import Goods from './Goods/Goods';
 import CounterButton from "./Button/CounterButton/CounterButton";
 import Button from "./Button/Button";
 import Delivery from "./Delivery/Delivery";
+import OrdersHistory from "./OrdersHistory/OrdersHistory";
 
 export  {
     Footer,
@@ -18,5 +19,6 @@ export  {
     Button,
     Delivery,
     CounterButton,
+    OrdersHistory
 }
 

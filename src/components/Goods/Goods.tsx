@@ -5,7 +5,6 @@ import {SVG} from "../../utils/svg";
 import CategoryList from "../Main/CategoryList/CategoryList";
 import MainHeader from "../Main/MainHeader/MainHeader";
 
-
 const Goods: React.FC = () => {
     return (
         <div className="goods">

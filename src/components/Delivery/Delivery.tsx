@@ -3,6 +3,21 @@ import React from 'react'
 // Global component
 import {Button, Input} from "../index";
 
+// fixme
+interface inputTarget {
+    target: HTMLInputElement
+}
+
+const inputType = {
+    type: 'text',
+    onFocus: ({target} : inputTarget):void => {
+        target.type = "date"
+    },
+    onBlur: ({target} : inputTarget):void => {
+        target.type = "text"
+    }
+}
+
 const Delivery: React.VFC = () => {
 
     return(
@@ -10,14 +25,14 @@ const Delivery: React.VFC = () => {
             <div className="delivery__container">
                 <div className="delivery__information">
                     <p>Когда доставить?</p>
-                    <div>
+                    <div className="delivery__information-where">
                         <Input
-                            type="date"
                             placeholder="Выберите дату"
+                            {...inputType}
                         />
                         <Input
-                            type="date"
                             placeholder="Выберите время"
+                            {...inputType}
                         />
                     </div>
                     <p>Куда доставить?</p>
@@ -35,6 +50,20 @@ const Delivery: React.VFC = () => {
                     />
                 </div>
                 <div className="delivery__price">
+                    <div className="delivery__price-info">
+                        <div className="delivery__price-item">
+                            <p>Стоимость товаров:</p>
+                            <p>200 584₽</p>
+                        </div>
+                        <div className="delivery__price-item">
+                            <p>Стоимость доставки:</p>
+                            <p>200 584₽</p>
+                        </div>
+                        <div className="delivery__price-item">
+                            <p>Итого:</p>
+                            <p>200 584₽</p>
+                        </div>
+                    </div>
                     <Button onClick={() => alert('!')}>
                         Сделать заказ
                     </Button>

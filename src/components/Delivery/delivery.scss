@@ -4,6 +4,7 @@
   &__container {
     display: flex;
     justify-content: left;
+    gap: 80px;
   }
   &__information {
     p {
@@ -15,9 +16,31 @@
     input {
       margin-bottom: 18px;
     }
+    &-where {
+      display: flex;
+      gap: 20px;
+    }
   }
   &__price {
-
+    &-info {
+      min-width: 290px;
+      border-radius: 20px;
+      background: #F0F4FB;
+      margin-bottom: 10px;
+      padding: 20px;
+    }
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color:#727280;
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+      &:last-child {
+        margin-top: 10px;
+      }
+    }
   }
 
 }

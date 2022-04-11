@@ -1,14 +1,15 @@
-import React from 'react'
+import React, {InputHTMLAttributes} from 'react'
 import {SVG} from "../../utils/svg";
 
-interface InputProps {
+interface InputProps extends InputHTMLAttributes<HTMLInputElement>{
     placeholder?: string
-    type?: React.HTMLInputTypeAttribute
+    type?: React.HTMLInputTypeAttribute,
 }
 
 const Input: React.VFC<InputProps> = ({
     placeholder,
-    type
+    type,
+    ...props
   }) => {
 
     return(
@@ -19,6 +20,7 @@ const Input: React.VFC<InputProps> = ({
             style={{
                 background: `url(${SVG.interface.vector}) no-repeat 10px`,
             }}
+            {...props}
         />
     )
 }

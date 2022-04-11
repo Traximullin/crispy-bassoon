@@ -1,11 +1,10 @@
 import React from "react";
-
+// fixme
 type buttonTypeProps = "button" | "submit" | "reset"
-
+// ? Eugene fuck u
 type buttonTypeThemes = string
 
 interface Props {
-    title?: string
     onClick: React.ReactEventHandler
     type?: buttonTypeProps
     theme?: buttonTypeThemes
@@ -23,7 +22,7 @@ const themes: { [key: string]: string } = {
     "w-100": "button_w100",
 }
 
-const Button: React.VFC<Props> = ({title, onClick, type, theme, src, padding}) => {
+const Button: React.FC<Props> = ({onClick, type, theme, src, padding}) => {
 
     const rootClasses = ['button']
     theme && theme.split(' ').forEach(elem => rootClasses.push(themes[elem]))
@@ -37,7 +36,7 @@ const Button: React.VFC<Props> = ({title, onClick, type, theme, src, padding}) =
         >
             <div className='button__items'>
                 {src && <img src={src} alt="button" className='button__img'/>}
-                {title}
+                {children}
             </div>
         </button>
     )

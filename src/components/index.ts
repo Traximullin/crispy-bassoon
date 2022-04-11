@@ -8,6 +8,7 @@ import CounterButton from "./Button/CounterButton/CounterButton";
 import Button from "./Button/Button";
 import Delivery from "./Delivery/Delivery";
 import OrdersHistory from "./OrdersHistory/OrdersHistory";
+import Info from "./Info/Info";
 
 export  {
     Footer,
@@ -19,6 +20,7 @@ export  {
     Button,
     Delivery,
     CounterButton,
-    OrdersHistory
+    OrdersHistory,
+    Info
 }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface Props {
+interface MainHeaderProps {
     title?: string,
     button?: Button[]
     children?: React.ReactNode
@@ -16,7 +16,7 @@ interface ButtonSettings {
     color?: string
 }
 
-const MainHeader = ({title, button, children}: Props) => {
+const MainHeader: React.FC<MainHeaderProps> = ({title, button, children}) => {
     return (
         <div className="main__header">
             <div className="main__header__top">

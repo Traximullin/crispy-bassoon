@@ -8,6 +8,7 @@ interface OrdersHistoryProps {
 }
 
 const OrdersHistory: React.VFC<OrdersHistoryProps> = () => {
+
     return (
         <div className='orders-history'>
             <MainHeader title="История заказов"/>
